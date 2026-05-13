@@ -201,18 +201,26 @@ nav a:hover {
 }
 
 /*Recuadro para contacto */
-.recuadro-negro {
-    border: 2px solid black;
+.recuadro-marron {
+    border: 2px solid var(--color-marron);
     padding: 16px;
     border-radius: 12px;
     background-color: #ffffff;
     max-width: 600px;
     margin: 20px auto;
 }
+.recuadro-marron h2 {
+    margin-bottom: 20px;
+    color: var(--color-marron-oscuro);
+}
 .contenedor-contacto {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+}
+.contenedor-contacto h1 {
+    margin-bottom: 20px;
+    color: var(--color-marron-oscuro);
 }
 /* Agrego estilo para la nueva página de login */
 .form-login {
