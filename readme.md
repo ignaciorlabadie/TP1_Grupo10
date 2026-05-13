@@ -59,7 +59,7 @@ El proyecto se organiza de la siguiente manera:
 1. Clonar el repositorio:
 
    ```
-   git clone https://github.com/IgnacioCallava/TP1_Grupo10.git
+   git clone https://github.com/ignaciorlabadie/TP1_Grupo10
    ```
 
 2. Abrir la carpeta del proyecto.
