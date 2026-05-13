@@ -40,6 +40,11 @@ El proyecto se organiza de la siguiente manera:
 📁 css/
    └── style.css
 
+📁 js/
+   ├── equipo.js
+   ├── perfil.js
+   └── servicios.js
+
 📁 pages/
    └── (todas las páginas secundarias)
 
