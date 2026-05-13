@@ -76,6 +76,6 @@ El proyecto se organiza de la siguiente manera:
 ## 📎 Repositorio
 
 Podés ver el proyecto en GitHub:
-👉 https://github.com/IgnacioCallava/TP1_Grupo10.git
+👉 https://github.com/ignaciorlabadie/TP1_Grupo10
 
 ---
