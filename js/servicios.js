@@ -11,7 +11,7 @@ async function obtenerServicios() {
 
     } catch (error) {
         console.log("Error al obtener servicios:", error);
-        return []; // evita que rompa el código
+        return [];
     }
 }
 
