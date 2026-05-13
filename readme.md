@@ -40,6 +40,11 @@ El proyecto se organiza de la siguiente manera:
 📁 css/
    └── style.css
 
+📁 js/
+   ├── equipo.js
+   ├── perfil.js
+   └── servicios.js
+
 📁 pages/
    └── (todas las páginas secundarias)
 
@@ -54,7 +59,7 @@ El proyecto se organiza de la siguiente manera:
 1. Clonar el repositorio:
 
    ```
-   git clone https://github.com/IgnacioCallava/TP1_Grupo10.git
+   git clone https://github.com/ignaciorlabadie/TP1_Grupo10
    ```
 
 2. Abrir la carpeta del proyecto.
@@ -76,6 +81,6 @@ El proyecto se organiza de la siguiente manera:
 ## 📎 Repositorio
 
 Podés ver el proyecto en GitHub:
-👉 https://github.com/IgnacioCallava/TP1_Grupo10.git
+👉 https://github.com/ignaciorlabadie/TP1_Grupo10
 
 ---

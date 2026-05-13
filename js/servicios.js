@@ -1,19 +1,38 @@
 async function obtenerServicios() {
-    const res = await fetch("https://tp3-grupo10-luea.onrender.com/servicios");
-    const data = await res.json();
-    return data;
+    try {
+        const res = await fetch("https://tp3-grupo10-luea.onrender.com/servicios");
+
+        if (!res.ok) {
+            throw new Error("Error en la respuesta del servidor");
+        }
+
+        const data = await res.json();
+        return data;
+
+    } catch (error) {
+        console.log("Error al obtener servicios:", error);
+        return [];
+    }
 }
 
 async function mostrarServicios() {
-    const servicios = await obtenerServicios();
+    try {
+        const servicios = await obtenerServicios();
 
-    const lista = document.getElementById("servicios-lista");
+        const lista = document.getElementById("servicios-lista");
+        lista.innerHTML = "";
 
-    lista.innerHTML = "";
+        let html = "";
 
-    servicios.forEach(servicio => {
-        lista.innerHTML += `<li>${servicio.nombre}</li>`;
-    });
+        servicios.forEach(servicio => {
+            html += `<li>${servicio.nombre}</li>`;
+        });
+
+        lista.innerHTML = html;
+
+    } catch (error) {
+        console.log("Error al mostrar servicios:", error);
+    }
 }
 
 mostrarServicios();
